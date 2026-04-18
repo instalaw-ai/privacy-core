@@ -1,6 +1,6 @@
 # @dutyclaims/privacy-core
 
-Open-source privacy layer for DutyClaims. This package contains all code that touches plaintext user data. It is the only code users need to audit to verify InstaLaw privacy guarantees.
+Open-source privacy layer for InstaLaw. This package contains all code that touches plaintext user data. It is the only code users need to audit to verify InstaLaw privacy guarantees.
 
 ## What this package includes
 
@@ -71,4 +71,4 @@ This package is designed so that:
 
 Apache-2.0. See the LICENSE file for full terms.
 
-Copyright 2024-2026 DutyClaims.
+Copyright 2024-2026 InstaLaw.

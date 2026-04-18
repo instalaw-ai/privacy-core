@@ -1,7 +1,7 @@
 {
   "name": "@dutyclaims/privacy-core",
   "version": "0.1.0",
-  "description": "Open-source privacy layer for DutyClaims — client-side encryption, PII redaction, and anonymous authentication primitives.",
+  "description": "Open-source privacy layer for InstaLaw — client-side encryption, PII redaction, and anonymous authentication primitives.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
