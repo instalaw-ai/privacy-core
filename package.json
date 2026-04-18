@@ -1,0 +1,27 @@
+{
+  "name": "@dutyclaims/privacy-core",
+  "version": "0.1.0",
+  "description": "Open-source privacy layer for DutyClaims — client-side encryption, PII redaction, and anonymous authentication primitives.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": { "import": "./dist/index.js", "types": "./dist/index.d.ts" },
+    "./crypto": { "import": "./dist/crypto/index.js", "types": "./dist/crypto/index.d.ts" },
+    "./redaction": { "import": "./dist/redaction/index.js", "types": "./dist/redaction/index.d.ts" },
+    "./auth": { "import": "./dist/auth/index.js", "types": "./dist/auth/index.d.ts" },
+    "./byom": { "import": "./dist/byom/index.js", "types": "./dist/byom/index.d.ts" },
+    "./utils": { "import": "./dist/utils/index.js", "types": "./dist/utils/index.d.ts" }
+  },
+  "files": ["dist", "LICENSE", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test src/**/*.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.9.3"
+  }
+}
