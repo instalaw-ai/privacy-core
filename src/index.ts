@@ -1,6 +1,6 @@
 // @dutyclaims/privacy-core — open-source privacy layer
 // This package contains all code that touches plaintext user data.
-// It is the only code users need to audit to verify DutyClaims privacy guarantees.
+// It is the only code users need to audit to verify InstaLaw privacy guarantees.
 
 export * from "./crypto/index.js";
 export * from "./redaction/index.js";
