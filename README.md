@@ -1,4 +1,4 @@
-# @dutyclaims/privacy-core
+# @instalaw/privacy-core
 
 Open-source privacy layer for InstaLaw. This package contains all code that touches plaintext user data. It is the only code users need to audit to verify InstaLaw privacy guarantees.
 
@@ -13,7 +13,7 @@ Open-source privacy layer for InstaLaw. This package contains all code that touc
 ## Installation
 
 ```bash
-pnpm add @dutyclaims/privacy-core
+pnpm add @instalaw/privacy-core
 ```
 
 ## Usage
@@ -22,14 +22,14 @@ Import from the main entry point or from specific subpaths:
 
 ```typescript
 // Main entry point (re-exports everything)
-import { encryptMessage, redactText, derivePassphraseKey } from "@dutyclaims/privacy-core";
+import { encryptMessage, redactText, derivePassphraseKey } from "@instalaw/privacy-core";
 
 // Subpath imports
-import { createDeviceIdentity, createChannelKey } from "@dutyclaims/privacy-core/crypto";
-import { redactText } from "@dutyclaims/privacy-core/redaction";
-import { derivePassphraseKey, generateSalt } from "@dutyclaims/privacy-core/auth";
-import { createBYOMAdapter } from "@dutyclaims/privacy-core/byom";
-import { coarsenTimestamp } from "@dutyclaims/privacy-core/utils";
+import { createDeviceIdentity, createChannelKey } from "@instalaw/privacy-core/crypto";
+import { redactText } from "@instalaw/privacy-core/redaction";
+import { derivePassphraseKey, generateSalt } from "@instalaw/privacy-core/auth";
+import { createBYOMAdapter } from "@instalaw/privacy-core/byom";
+import { coarsenTimestamp } from "@instalaw/privacy-core/utils";
 ```
 
 ## Building

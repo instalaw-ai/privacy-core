@@ -1,4 +1,4 @@
-// @dutyclaims/privacy-core — open-source privacy layer
+// @instalaw/privacy-core — open-source privacy layer
 // This package contains all code that touches plaintext user data.
 // It is the only code users need to audit to verify InstaLaw privacy guarantees.
 

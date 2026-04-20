@@ -1,5 +1,5 @@
 {
-  "name": "@dutyclaims/privacy-core",
+  "name": "@instalaw/privacy-core",
   "version": "0.1.0",
   "description": "Open-source privacy layer for InstaLaw — client-side encryption, PII redaction, and anonymous authentication primitives.",
   "type": "module",
