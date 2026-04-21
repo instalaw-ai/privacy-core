@@ -17,6 +17,7 @@
   "scripts": {
     "build": "tsc",
     "test": "tsx --test src/**/*.test.ts",
+    "prepare": "tsc",
     "prepublishOnly": "npm run build"
   },
   "license": "Apache-2.0",
