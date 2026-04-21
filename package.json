@@ -21,6 +21,21 @@
     "prepublishOnly": "npm run build"
   },
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instalaw-ai/privacy-core.git"
+  },
+  "homepage": "https://github.com/instalaw-ai/privacy-core#readme",
+  "bugs": { "url": "https://github.com/instalaw-ai/privacy-core/issues" },
+  "keywords": [
+    "encryption",
+    "privacy",
+    "pii",
+    "redaction",
+    "web-crypto",
+    "aes-gcm",
+    "pbkdf2"
+  ],
   "devDependencies": {
     "tsx": "^4.19.1",
     "typescript": "^5.9.3"
