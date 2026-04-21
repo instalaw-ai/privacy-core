@@ -21,6 +21,7 @@
     "prepublishOnly": "npm run build"
   },
   "license": "Apache-2.0",
+  "publishConfig": { "access": "public" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/instalaw-ai/privacy-core.git"
