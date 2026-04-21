@@ -53,9 +53,17 @@ Tests use the Node.js built-in test runner (`node:test`) with `tsx` for TypeScri
 To verify that the published package matches the source:
 
 1. Clone this repository.
-2. Run `pnpm install` and `pnpm build` in `packages/privacy-core/`.
+2. Run `pnpm install` and `pnpm build`.
 3. Compare the `dist/` output against the published package contents.
 4. Run `pnpm test` to confirm all cryptographic round-trips and redaction rules pass.
+
+## Releases
+
+Publishing to npm is performed manually by a maintainer after local review (`npm publish` with interactive 2FA). Automated release pipelines — tag-triggered `npm publish` workflows, `npm-provenance`, changesets — are **intentionally deferred** for now. Keeping the release path manual means every published artifact has a human checkpoint, and the npm credential never sits in CI secrets. We will revisit automation once the package has a stable release cadence.
+
+## Reporting security vulnerabilities
+
+Please report vulnerabilities privately via **https://alpha.security.instalaw.io** — do not file a public GitHub issue. See [SECURITY.md](./SECURITY.md) for the full disclosure policy.
 
 ## Security model
 
